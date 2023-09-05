@@ -108,7 +108,7 @@ footer {
 /***** Navbar Styling *****/
 .Navbar {
     overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-    background-color: black; /* This colors the navbar black */
+    background-color: #2b496c; /* This colors the navbar black */
     position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
     top: 0; /* This ensures no space is displayed above the navbar */
     width: 100%; /* This makes the navbar span the entire width of the page */
@@ -155,7 +155,7 @@ footer {
 
 /* Navbar home button */
 .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
-    background-color: darkgray;
+    background-color: #566c4a;
 }
 /***** End of Navbar Styling *****/
 
@@ -342,12 +342,14 @@ footer {
     bottom: 1.75vw; /* Positions the button slightly up from the bottom of the viewport */
     right: 1.75vw; /* Positions the viewport slightly right from the side of the viewport */
     width: 25vw; /* Sets the width relative to the viewport width */
-    background-color: white; /* Sets the background color of the button to white */
-    color: black; /* Sets the color of the button text to black */
-    border: solid black; /* This makes a solid black border around the button */
+    background-color: #2b496c; /* Sets the background color of the button to white */
+    color: white; /* Sets the color of the button text to black */
+    border: solid white; /* This makes a solid black border around the button */
     cursor: pointer; /* This changes the cursor when hovered over the button to a pointer */
     -webkit-animation: movePopup 5s; /* Animation for 5 seconds for Safari 4.0-8.0 */
     animation: movePopup 5s; /* Animation set for 5 seconds */
+    border-radius: 50px;
+
 }
 
 /* movePopup animation moves the button from off the right side of the screen to its fixed location on the viewport */
@@ -402,7 +404,7 @@ button {
 /* Hover effect for contact and submit buttons */
 button:hover, .form-container .btn:hover {
     color: white; /* This makes the text in the buttons white when hovered over */
-    background-color: black; /* The background of the button changes to black when hovered over */
+    background-color: #566c4a; /* The background of the button changes to black when hovered over */
     transition-duration: 1s; /* This makes the transition last 1 second */
     -webkit-transition-duration: 1s; /* For Safari 4.0-8.0 */
     border-color: silver; /* The border turns silver when the button is hovered over */
